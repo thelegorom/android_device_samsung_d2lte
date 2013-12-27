@@ -17,4 +17,7 @@
 <resources>
     <!-- Volume Rocker Wake -->
     <bool name="config_show_volumeRockerWake">true</bool>
+
+    <!-- Button Duration Pref -->
+    <bool name="config_show_ButtonDur">true</bool>
 </resources>
