@@ -81,7 +81,7 @@ BOARD_HAVE_DOCK_USBAUDIO := true
 TARGET_DISPLAY_INSECURE_MM_HEAP := true
 COMMON_GLOBAL_CFLAGS += -DQCOM_BSP_CAMERA_ABI_HACK
 TARGET_NEED_DISABLE_AUTOFOCUS := true
-ifeq ($(filter cm_apexqtmo cm_expressatt,$(TARGET_PRODUCT)),)
+ifeq ($(filter liquid_apexqtmo liquid_expressatt,$(TARGET_PRODUCT)),)
   TARGET_NEED_CAMERA_ZSL := true
   TARGET_ADD_ISO_MODE_1600 := true
 endif
@@ -93,7 +93,7 @@ COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 # Separate audio devices for VOIP
 BOARD_USES_SEPERATED_VOIP := true
 
-ifeq ($(filter cm_apexqtmo cm_expressatt,$(TARGET_PRODUCT)),)
+ifeq ($(filter liquid_apexqtmo liquid_expressatt,$(TARGET_PRODUCT)),)
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2att,d2spr,d2tmo,d2cri,d2mtr,d2usc,d2vzw,d2lte
 endif
