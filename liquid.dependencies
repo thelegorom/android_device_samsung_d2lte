@@ -26,7 +26,7 @@
     {
         "remote": "gh",
         "repository": "invisiblek/proprietary_vendor_samsung",
-        "target_path": "vendor/samsung2",
+        "target_path": "vendor/samsung",
         "revision": "cm-11.0"
     }
 ]

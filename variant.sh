@@ -26,7 +26,7 @@ if [[ "$CMDLINE" != "${CMDLINE/SGH-I747}" ]]; #d2att
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2uc-user 4.1.2 JZO54K I747UCDMG2 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SGH-I747|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2att|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2att|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2att|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530C}" ]]; #d2cri
     then
@@ -35,7 +35,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530C}" ]]; #d2cri
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2cri-user 4.1.2 JZO54K R530CVVBMD6 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SCH-R530C|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2cri|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2cri|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2cri|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530M}" ]]; #d2mtr
     then
@@ -44,7 +44,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530M}" ]]; #d2mtr
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2mtr-user 4.1.2 JZO54K R530MVQAMF2 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SCH-R530M|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2mtr|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2mtr|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2mtr|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SPH-L710}" ]]; #d2spr
     then
@@ -53,7 +53,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SPH-L710}" ]]; #d2spr
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2spr-user 4.1.2 JZO54K L710VPBMD4 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SPH-L710|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2spr|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2spr|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2spr|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SGH-T999}" ]]; #d2tmo
     then
@@ -62,7 +62,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SGH-T999}" ]]; #d2tmo
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2uc-user 4.1.2 JZO54K T999UVDMD5 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SGH-T999|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2tmo|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2tmo|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2tmo|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530U}" ]]; #d2usc
     then
@@ -71,7 +71,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530U}" ]]; #d2usc
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2usc-user 4.1.1 JRO03L R530UVXALK5 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SCH-R530U|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2usc|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2usc|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2usc|g' /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SCH-I535}" ]]; #d2vzw
     then
@@ -80,6 +80,6 @@ elif [[ "$CMDLINE" != "${CMDLINE/SCH-I535}" ]]; #d2vzw
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2vzw-user 4.3 JSS15J I535VRUCML1 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SCH-I535|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2vzw|g' /system/build.prop
-       sed -i 's|ro.cm.device=d2lte|ro.cm.device=d2vzw|g' /system/build.prop
+       sed -i 's|ro.liquid.device=d2lte|ro.liquid.device=d2vzw|g' /system/build.prop
        echo "ro.telephony.default_cdma_sub=0" >> /system/build.prop
 fi
