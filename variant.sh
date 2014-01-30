@@ -66,6 +66,7 @@ elif [[ "$CMDLINE" != "${CMDLINE/SCH-R530U}" ]]; #d2usc
        sed -i 's|ro.build.description=xxxxxxxxxx|ro.build.description=d2usc-user 4.1.1 JRO03L R530UVXALK5 release-keys|g' /system/build.prop
        sed -i 's|ro.product.model=d2lte|ro.product.model=SCH-R530U|g' /system/build.prop
        sed -i 's|ro.product.device=d2lte|ro.product.device=d2usc|g' /system/build.prop
+       echo "ro.telephony.default_cdma_sub=0" >> /system/build.prop
 
 elif [[ "$CMDLINE" != "${CMDLINE/SCH-I535}" ]]; #d2vzw
     then
