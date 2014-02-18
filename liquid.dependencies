@@ -1,15 +1,15 @@
 [
     {
-        "remote": "ls",
+        "remote": "cm",
         "repository": "android_device_samsung_msm8960-common",
         "target_path": "device/samsung/msm8960-common",
-        "revision": "kitkat"
+        "revision": "cm-11.0"
     },
     {
-        "remote": "ls",
+        "remote": "cm",
         "repository": "android_device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
-        "revision": "kitkat"
+        "revision": "cm-11.0"
     },
 	{
         "remote": "cm",
@@ -33,6 +33,6 @@
         "remote": "tm",
         "repository": "proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "revision": "wip"
+        "revision": "cm-11.0"
     }
 ]
