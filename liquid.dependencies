@@ -24,10 +24,10 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "gh",
-        "repository": "imoseyon/leanKernel-d2vzw",
+        "remote": "cm",
+        "repository": "android_kernel_samsung_d2",
         "target_path": "kernel/samsung/d2",
-        "revision": "lk-cm-kitkat"
+        "revision": "cm-11.0"
     },
     {
         "remote": "tm",
