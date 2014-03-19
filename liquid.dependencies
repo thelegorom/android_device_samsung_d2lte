@@ -18,10 +18,10 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "cm",
+        "remote": "ls",
         "repository": "android_kernel_samsung_d2",
         "target_path": "kernel/samsung/d2",
-        "revision": "cm-11.0"
+        "revision": "Deathly-4.4"
     },
     {
         "remote": "tm",
