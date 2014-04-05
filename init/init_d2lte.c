@@ -121,7 +121,7 @@ void vendor_load_properties()
         property_set("ro.product.device", "d2usc");
     } else if (strstr(bootloader, "I535")) {
         /* d2vzw */
-        cdma_properties("0", "10", "311480", "Verizon", "0");
+        cdma_properties("0", "10", "310004", "Verizon", "0");
         property_set("ro.build.fingerprint", "Verizon/d2vzw/d2vzw:4.3/JSS15J/I535VRUCML1:user/release-keys");
         property_set("ro.build.description", "d2vzw-user 4.3 JSS15J I535VRUCML1 release-keys");
         property_set("ro.product.model", "SCH-I535");
