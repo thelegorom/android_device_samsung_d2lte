@@ -21,7 +21,7 @@
         "remote": "ls",
         "repository": "android_kernel_samsung_d2",
         "target_path": "kernel/samsung/d2",
-        "revision": "Deathly-4.4"
+        "revision": "Deathly-4.4-Test"
     },
     {
         "remote": "tm",
