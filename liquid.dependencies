@@ -6,10 +6,10 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "cm",
-        "repository": "android_device_samsung_qcom-common",
+        "remote": "sr",
+        "repository": "device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
-        "revision": "cm-11.0"
+        "revision": "kk4.4"
     },
     {
         "remote": "cm",
