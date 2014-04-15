@@ -177,6 +177,12 @@ endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
+# F2FS
+PRODUCT_PACKAGES += \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs
+	
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
