@@ -1,13 +1,13 @@
 [
     {
-        "remote": "ls",
-        "repository": "android_device_samsung_msm8960-common",
+        "remote": "gh",
+        "repository": "thelegorom/android_device_samsung_msm8960-common",
         "target_path": "device/samsung/msm8960-common",
         "revision": "kitkat"
     },
     {
-        "remote": "sr",
-        "repository": "device_samsung_qcom-common",
+        "remote": "github",
+        "repository": "SlimRoms/device_samsung_qcom-common",
         "target_path": "device/samsung/qcom-common",
         "revision": "kk4.4"
     },

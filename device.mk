@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2lte/overlay
 
 # Boot animation and screen size
 
-ifeq ($(filter liquid_apexqtmo liquid_expressatt,$(TARGET_PRODUCT)),)
+ifeq ($(filter lego_apexqtmo lego_expressatt,$(TARGET_PRODUCT)),)
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -88,7 +88,7 @@ PRODUCT_PACKAGES += Torch
 
 # Wifi
 PRODUCT_PACKAGES += \
-    libnetliquiddiface \
+    libnetlegodiface \
     linville.key.pub.pem \
     regdbdump \
     regulatory.bin \
@@ -146,9 +146,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.rild.nitz_short_ons_2="" \
     persist.rild.nitz_short_ons_3="" \
     dalvik.vm.dexopt-data-only=0 \
-    otaupdater.otaid=liquidd2lte
+    otaupdater.otaid=legod2lte
 
-ifneq ($(TARGET_PRODUCT),liquid_apexqtmo)
+ifneq ($(TARGET_PRODUCT),lego_apexqtmo)
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.mode=endfire \
     persist.audio.handset.mic=digital \
@@ -186,7 +186,7 @@ PRODUCT_PACKAGES += \
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
-ifeq ($(filter liquid_apexqtmo liquid_expressatt,$(TARGET_PRODUCT)),)
+ifeq ($(filter lego_apexqtmo lego_expressatt,$(TARGET_PRODUCT)),)
     $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 else
     $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
